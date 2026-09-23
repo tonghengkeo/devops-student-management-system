@@ -1,0 +1,102 @@
+# ==============================
+# Java
+# ==============================
+*.class
+*.jar
+*.war
+*.ear
+
+# ==============================
+# Maven
+# ==============================
+target/
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ==============================
+# Spring Boot
+# ==============================
+spring.log
+logs/
+*.log
+
+# ==============================
+# Environment and Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.p12
+*.jks
+
+# ==============================
+# IntelliJ IDEA
+# ==============================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ==============================
+# Eclipse
+# ==============================
+.classpath
+.project
+.settings/
+.factorypath
+
+# ==============================
+# VS Code
+# ==============================
+.vscode/
+
+# ==============================
+# Operating System
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Docker Local Overrides
+# ==============================
+docker-compose.override.yml
+
+# ==============================
+# Terraform
+# ==============================
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+*.tfvars
+*.tfvars.json
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+.terraformrc
+terraform.rc
+
+# ==============================
+# Temporary Files
+# ==============================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ==============================
+# Test / Coverage Output
+# ==============================
+coverage/
+*.exec
