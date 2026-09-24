@@ -1,0 +1,13 @@
+package com.keotongheng.dsms;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class DsmsApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
